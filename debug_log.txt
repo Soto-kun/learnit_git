@@ -1,0 +1,187 @@
+Launching lib/main.dart on iPhone 12 Pro Max in debug mode...
+Running Xcode build...
+Xcode build done.                                           2800.1s
+Debug service listening on ws://127.0.0.1:58956/MbmJ5c7aP3M=/ws
+Syncing files to device iPhone 12 Pro Max...
+flutter: ℹ️[10:21:01-211ms][main] ===== START main.dart =======
+flutter: ℹ️[10:21:02-212ms][⚡️Fast-194ms][FirebaseServices] Init successfully
+flutter: ℹ️[10:21:04-214ms][🌍appConfig] dokan {type: dokan, url: https://staging-krolycpt.kinsta.cloud/, consumerKey: ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32, consumerSecret: cs_53c9c68467dd3c80d9907a3af9db8160614a416a, blog: https://staging-krolycpt.kinsta.cloud/, forgetPassword: https://staging-krolycpt.kinsta.cloud/minha-conta/lost-password/}
+flutter: ℹ️[10:21:04-214ms][AppState] initState
+flutter: ℹ️[10:21:04-214ms][AppState] Build app.dart
+flutter: ℹ️[10:21:06-216ms][⏰Medium-1365ms][AppState] Register Firebase or OneSignal Modules
+flutter: ℹ️[10:21:09-219ms][⌛️Slow-3425ms][FirebaseCloudMessaging] init FCM cLPj2xzikkB0sd7f5DQ0Eo:APA91bFMv1Fqffbl0UzeZhtPpxamAxKa8iTejse-I-lNiOijRp5yOdDWFN4_DcDtooh3vuazbrQPBYogaTgCBskebc3J2XbcGYTlvE1HDDd5399sjELNPVJKlPXFKMyuKT0yg19N0nue
+flutter: ℹ️[10:21:12-2112ms][AppState] Init Data 💫
+flutter: ℹ️[10:21:13-2113ms][⏰Medium-1251ms][Debug] Finish Load AppConfig
+flutter: ℹ️[10:21:13-2113ms][AppState] InitData Finish
+flutter: ℹ️[10:21:13-2113ms][Category] getCategories
+flutter: ℹ️[10:21:13-2113ms][Tag] getTags
+flutter: ℹ️[10:21:14-2114ms][🧬Builder RouteGenerate] onBoarding
+flutter: ℹ️[10:21:19-2119ms][⌛️Slow-6199ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=1&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:19-2119ms][⌛️Slow-6200ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=1&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:20-2120ms][⌛️Slow-6923ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/get_countries
+flutter: ℹ️[10:21:23-2123ms][⌛️Slow-10123ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=1&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:23-2123ms][⌛️Slow-10124ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=1&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:23-2123ms][⌛️Slow-10319ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:23-2123ms][⌛️Slow-10324ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:26-2126ms][⌛️Slow-13212ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/get_currency_rates
+flutter: ℹ️[10:21:27-2127ms][⌛️Slow-13617ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/attributes?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:27-2127ms][⌛️Slow-13618ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/attributes?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:34-2134ms][⌛️Slow-20993ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wp/v2/posts?_embed&page=1
+flutter: ℹ️[10:21:36-2136ms][⌛️Slow-11403ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=2&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:36-2136ms][⌛️Slow-11405ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=2&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:38-2138ms][⌛️Slow-17320ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=2&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:38-2138ms][⌛️Slow-17322ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=2&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:39-2139ms][⌛️Slow-12636ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/attributes/21/terms?per_page=100&page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:39-2139ms][⌛️Slow-12637ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/attributes/21/terms?per_page=100&page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:45-2145ms][⌛️Slow-6387ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=3&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:45-2145ms][⌛️Slow-6388ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=3&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:46-2146ms][⌛️Slow-6302ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/attributes/21/terms?per_page=100&page=2&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:46-2146ms][⌛️Slow-6303ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/attributes/21/terms?per_page=100&page=2&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:48-2148ms][⌛️Slow-8145ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=3&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:48-2148ms][⌛️Slow-8146ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=3&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:50-2150ms][⌛️Slow-2887ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=4&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:50-2150ms][⌛️Slow-2887ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=4&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:54-2154ms][⌛️Slow-3648ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=4&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:54-2154ms][⌛️Slow-3649ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=4&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:54-2154ms][⌛️Slow-2763ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=5&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:54-2154ms][⌛️Slow-2764ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=5&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:58-2158ms][⌛️Slow-2935ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=5&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:58-2158ms][⌛️Slow-2936ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=5&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:59-2159ms][⌛️Slow-2801ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=6&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:21:59-2159ms][⌛️Slow-2802ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/tags?per_page=100&page=6&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:24:47-2447ms][🧬Builder RouteGenerate] login
+flutter: ℹ️[10:25:27-2527ms][⌛️Slow-3981ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/generate_auth_cookie/?insecure=cool&
+flutter: ℹ️[10:25:29-2529ms][⌛️Slow-2600ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/get_currentuserinfo?token=bWFyaW98MTIyNTk1MTUwMzI3fFRJaGVxbGM2Z2E2MUdRODk5OTU4YjVWRlJSWWp1TjNWUzJZM3hXUWxobUN8ODUyNTg4MWEwZmNmNWU5YjE0YmVlYTdiNWI2ZTg2MzNhMGU4ZGJjZTMwZTA2MjQ2ZDg0MzYwZDMwOTVhZGE4Mg==&
+flutter: ℹ️[10:25:29-2529ms]token: cLPj2xzikkB0sd7f5DQ0Eo:APA91bFMv1Fqffbl0UzeZhtPpxamAxKa8iTejse-I-lNiOijRp5yOdDWFN4_DcDtooh3vuazbrQPBYogaTgCBskebc3J2XbcGYTlvE1HDDd5399sjELNPVJKlPXFKMyuKT0yg19N0nue
+flutter: ℹ️[10:25:30-2530ms][TabBar] ============== tabbar.dart ==============
+flutter: ℹ️[10:25:30-2530ms][TabBar] ============== tabbar.dart ==============
+flutter: ℹ️[10:25:30-2530ms][ScreenSize]: 428.0 x 926.0
+flutter: ℹ️[10:25:30-2530ms][AppState] Load Menu
+flutter: ℹ️[10:25:31-2531ms][🧬Builder RouteGenerate] home
+flutter: ℹ️[10:25:31-2531ms][Home] initState
+flutter: ℹ️[10:25:31-2531ms][Home] build
+flutter: ℹ️[10:25:31-2531ms][🧬Builder RouteGenerate] vendors
+flutter: ℹ️[10:25:31-2531ms][🧬Builder RouteGenerate] search
+flutter: ℹ️[10:25:31-2531ms][SearchScreen] initState
+flutter: ℹ️[10:25:31-2531ms][SearchScreen] build
+flutter: ℹ️[10:25:31-2531ms][🧬Builder RouteGenerate] cart
+flutter: ℹ️[10:25:31-2531ms][Cart] build
+flutter: ℹ️[10:25:31-2531ms][🧬Builder RouteGenerate] profile
+[VERBOSE-2:ui_dart_state.cc(199)] Unhandled Exception: [cloud_firestore/permission-denied] The caller does not have permission to execute the specified operation.
+#0      MethodChannelDocumentReference.set (package:cloud_firestore_platform_interface/src/method_channel/method_channel_document_reference.dart:43:7)
+<asynchronous suspension>
+#1      FirebaseServices.saveUserToFirestore (package:fstore/modules/firebase/firebase_service.dart:153:5)
+<asynchronous suspension>
+flutter: ℹ️[10:25:32-2532ms][ScreenName] home
+flutter: ℹ️[10:25:37-2537ms][⌛️Slow-7279ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/update_user_profile
+flutter: ℹ️[10:25:37-2537ms][⌛️Slow-7815ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/cart?token=bWFyaW98MTIyNTk1MTUwMzI3fFRJaGVxbGM2Z2E2MUdRODk5OTU4YjVWRlJSWWp1TjNWUzJZM3hXUWxobUN8ODUyNTg4MWEwZmNmNWU5YjE0YmVlYTdiNWI2ZTg2MzNhMGU4ZGJjZTMwZTA2MjQ2ZDg0MzYwZDMwOTVhZGE4Mg==
+[VERBOSE-2:ui_dart_state.cc(199)] Unhandled Exception: Null check operator used on a null value
+#0      new ProductVariation.fromJson (package:fstore/models/entities/product_variation.dart:33:12)
+#1      WooWidget.syncCartFromWebsite.<anonymous closure> (package:fstore/frameworks/woocommerce/index.dart:549:38)
+#2      List.forEach (dart:core-patch/growable_array.dart:403:8)
+#3      WooWidget.syncCartFromWebsite (package:fstore/frameworks/woocommerce/index.dart:543:48)
+<asynchronous suspension>
+#4      AppState.onLoaded (package:fstore/app.dart:155:7)
+<asynchronous suspension>
+flutter: ℹ️[10:25:40-2540ms][⌛️Slow-8384ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/dokan/v1/stores?status=approved&page=1
+flutter: ℹ️[10:25:41-2541ms][⌛️Slow-9604ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/coupons?page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:25:41-2541ms][⌛️Slow-9605ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/coupons?page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:25:41-2541ms][ScreenName] vendors
+flutter: ℹ️[10:25:43-2543ms][⌛️Slow-12113ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products?status=publish&category=148&user_id=2547&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:25:43-2543ms][⌛️Slow-12115ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products?status=publish&category=148&user_id=2547&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:25:45-2545ms][⌛️Slow-13783ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products?status=publish&category=814&per_page=20&user_id=2547&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:25:45-2545ms][⌛️Slow-13785ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products?status=publish&category=814&per_page=20&user_id=2547&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:25:46-2546ms][⌛️Slow-8281ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/cart
+flutter: ℹ️[10:25:53-2553ms][🧬Builder RouteGenerate] store-detail
+flutter: ℹ️[10:25:53-2553ms][ScreenName] store-detail
+flutter: ℹ️[10:25:53-2553ms][build SmartChat]
+flutter: ℹ️[10:25:56-2556ms][⌛️Slow-3705ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/dokan/v1/stores/4/products?page=1&per_page=10
+flutter: ℹ️[10:25:58-2558ms][⌛️Slow-5057ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/dokan/v1/stores/4/products?page=1&per_page=10
+flutter: ℹ️[10:25:59-2559ms][⌛️Slow-6140ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/dokan/v1/stores/4/products?page=1&per_page=10
+flutter: ℹ️[10:26:02-262ms][⌛️Slow-9646ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/dokan/v1/stores/4/reviews
+flutter: ℹ️[10:26:02-262ms][⌛️Slow-9775ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=1&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:02-262ms][⌛️Slow-9776ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=1&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:25-2625ms][⌛️Slow-3933ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=2&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:25-2625ms][⌛️Slow-3934ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=2&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:30-2630ms][🧬Builder RouteGenerate] product
+flutter: ℹ️[10:26:30-2630ms][ScreenName] product
+flutter: ℹ️[10:26:31-2631ms][build SmartChat]
+flutter: ℹ️[10:26:31-2631ms]-- fetchProductsByCategory --
+flutter: ℹ️[10:26:31-2631ms][build SmartChat]
+flutter: ℹ️[10:26:36-2636ms][⌛️Slow-5277ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:36-2636ms][⌛️Slow-5281ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:36-2636ms][⌛️Slow-4943ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v3/products?status=publish&per_page=20&page=1&skip_cache=1&category=782&stock_status=instock&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:36-2636ms][⌛️Slow-4944ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v3/products?status=publish&per_page=20&page=1&skip_cache=1&category=782&stock_status=instock&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:40-2640ms][⌛️Slow-4592ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=3&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:40-2640ms][⌛️Slow-4593ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=3&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:40-2640ms][⌛️Slow-3820ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800/variations?per_page=100&page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:40-2640ms][⌛️Slow-3829ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800/variations?per_page=100&page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:42-2642ms][⌛️Slow-5840ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:42-2642ms][⌛️Slow-5851ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:43-2643ms][⌛️Slow-2896ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:43-2643ms][⌛️Slow-2900ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/68800?consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:49-2649ms][Cart] build
+flutter: ℹ️[10:26:49-2649ms][⌛️Slow-3727ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/coupons?page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:49-2649ms][⌛️Slow-3728ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/coupons?page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:50-2650ms][⌛️Slow-4617ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/cart
+flutter: ℹ️[10:26:54-2654ms][⌛️Slow-5373ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=4&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:54-2654ms][⌛️Slow-5378ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=4&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:55-2655ms][⌛️Slow-5893ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/coupons?page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:55-2655ms][⌛️Slow-5899ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/coupons?page=1&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:26:59-2659ms][🧬Builder RouteGenerate] checkout
+flutter: ℹ️[10:26:59-2659ms][ScreenName] checkout
+flutter: ℹ️[10:26:59-2659ms][Cart] build
+flutter: ℹ️[10:27:00-270ms][TabBar] ============== tabbar.dart ==============
+flutter: ℹ️[10:27:00-270ms][ScreenSize]: 428.0 x 926.0
+flutter: ℹ️[10:27:00-270ms][build SmartChat]
+
+======== Exception caught by scheduler library =====================================================
+The following assertion was thrown during a scheduler callback:
+There are multiple heroes that share the same tag within a subtree.
+
+Within each subtree for which heroes are to be animated (i.e. a PageRoute subtree), each Hero must have a unique non-null tag.
+In this case, multiple heroes had the following tag: <default FloatingActionButton tag>
+Here is the subtree for one of the offending heroes: Hero
+  tag: <default FloatingActionButton tag>
+  dependencies: [_ModalScopeStatus]
+  state: _HeroState#5f1ea
+When the exception was thrown, this was the stack: 
+#0      Hero._allHeroesFor.inviteHero.<anonymous closure> (package:flutter/src/widgets/heroes.dart:320:11)
+#1      Hero._allHeroesFor.inviteHero (package:flutter/src/widgets/heroes.dart:331:8)
+#2      Hero._allHeroesFor.visitor (package:flutter/src/widgets/heroes.dart:359:23)
+#3      SingleChildRenderObjectElement.visitChildren (package:flutter/src/widgets/framework.dart:6070:14)
+#4      Hero._allHeroesFor.visitor (package:flutter/src/widgets/heroes.dart:365:15)
+...
+====================================================================================================
+flutter: ℹ️[10:27:03-273ms][⌛️Slow-2972ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/get_currentuserinfo?token=bWFyaW98MTIyNTk1MTUwMzI3fFRJaGVxbGM2Z2E2MUdRODk5OTU4YjVWRlJSWWp1TjNWUzJZM3hXUWxobUN8ODUyNTg4MWEwZmNmNWU5YjE0YmVlYTdiNWI2ZTg2MzNhMGU4ZGJjZTMwZTA2MjQ2ZDg0MzYwZDMwOTVhZGE4Mg==&
+flutter: ℹ️[10:27:03-273ms]MZ
+flutter: ℹ️[10:27:05-275ms][⌛️Slow-2569ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=5&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:27:05-275ms][⌛️Slow-2574ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=5&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:27:15-2715ms]MZ
+flutter: ℹ️[10:27:18-2718ms][⌛️Slow-3068ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=6&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:27:18-2718ms][⌛️Slow-3069ms][woo_api] GET:https://staging-krolycpt.kinsta.cloud//wp-json/wc/v2/products/categories?exclude=311&per_page=100&page=6&hide_empty=true&consumer_key=ck_28f4f95a1cf4ac6d1c2ffbcc4daf6834af523a32&consumer_secret=cs_53c9c68467dd3c80d9907a3af9db8160614a416a
+flutter: ℹ️[10:27:18-2718ms]MZ
+flutter: ℹ️[10:27:22-2722ms][⌛️Slow-2639ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/shipping_methods
+flutter: ℹ️[10:27:24-2724ms][⌛️Slow-2252ms]GET->> https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/ddates
+flutter: ℹ️[10:27:24-2724ms]FormatException: Unexpected end of input (at character 1)
+flutter:
+flutter: ^
+flutter:
+flutter: ℹ️[10:27:24-2724ms]#0      _ChunkedJsonParser.fail (dart:convert-patch/convert_patch.dart:1404:5)
+flutter: #1      _ChunkedJsonParser.close (dart:convert-patch/convert_patch.dart:522:7)
+flutter: #2      _parseJson (dart:convert-patch/convert_patch.dart:41:10)
+flutter: #3      JsonDecoder.convert (dart:convert/json.dart:506:36)
+flutter: #4      JsonCodec.decode (dart:convert/json.dart:157:41)
+flutter: #5      jsonDecode (dart:convert/json.dart:96:10)
+flutter: #6      WooCommerceService.getListDeliveryDates (package:fstore/frameworks/woocommerce/services/woo_commerce.dart:1902:22)
+flutter: <asynchronous suspension>
+flutter: #7      VendorShippingMethodModel.getDelivery (package:fstore/models/vendor/vendor_shipping_model.dart:48:12)
+flutter: <asynchronous suspension>
+flutter: #8      VendorShippingMethodModel.getShippingMethods (package:fstore/models/vendor/vendor_shipping_model.dart:35:26)
+flutter: <asynchronous suspension>
+flutter:
+flutter: ℹ️[10:27:29-2729ms][⌛️Slow-2412ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/taxes
+flutter: ℹ️[10:27:36-2736ms][⌛️Slow-2454ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_woo/payment_methods
+flutter: ℹ️[10:27:41-2741ms][⌛️Slow-2375ms]POST:https://staging-krolycpt.kinsta.cloud//wp-json/api/flutter_user/checkout
+flutter: ℹ️[10:27:41-2741ms]https://staging-krolycpt.kinsta.cloud//finalizar-compra?code=fd8ddff32a57a25e0479dfb68d4c0e25&mobile=true
+flutter: ℹ️[10:27:41-2741ms][ScreenName] null
